@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+}
+
+.main_title {
+    align-self: center;
+    background-color: #78a75a;
+    color: #ffffff;
+    border-radius: 1.25rem;
+    width: fit-content;
+    padding-inline: 1rem;
+}
+
+.paragraph {
+    border-bottom: 3px solid #78a75a;
+}
+
+.paragraph:last-of-type {
+    border: none;
+}

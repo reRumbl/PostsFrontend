@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 3rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 30%);
+    border-radius: 15px;
+    max-width: 80vw;
+}
+
+.post_img {
+    border-radius: 15px;
+    min-width: 50vw;
+    max-width: 60vw;
+    height: auto;
+}
+
+.author_info_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.author_img {
+    width: 5rem;
+    border: none;
+    margin: 0;
+}
+
+.author_name {
+    margin: 0;
+    font-size: 2rem;
+    color: #000;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    background-color: #78a75a;
+    border: 1px solid #649348;
+    border-radius: 0.625rem;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+.action img {
+    width: 2.5vw;
+}
+
+.share_btn {
+    background-color: #427dcb;
+    border: 1px solid #404ad4;
+}
+
+.edit_btn {
+    background-color: #cbc042;
+    border: 1px solid #d4aa40;
+}
+
+.delete_btn {
+    background-color: #cc3838;
+    border: 1px solid #972323;
+}
+
+.modal_body {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.copy_link_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 0.625rem;
+}
+
+.copy_link {
+    padding-left: 0.5rem;
+    resize: none;
+    color: #78a75a;
+}
+
+.copy_link_btn {
+    background-color: #427dcb;
+    border: none;
+    border-radius: 0.625rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    cursor: pointer;
+}
+
+.copy_link_btn img {
+    width: 2.25rem;
+}
+
+.delete_modal_button {
+    background-color: #cc3838;
+    color: #ffffff;
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete_modal_button:hover {
+    background-color: #972323;
+}

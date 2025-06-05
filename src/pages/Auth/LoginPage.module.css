@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page_title {
+    background-color: #78a75a;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 10vw;
+    text-align: center;
+}
+
+.link_text {
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color:#78a75a;
+}
