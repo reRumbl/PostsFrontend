@@ -1,3 +1,5 @@
+**See backend repository too: https://github.com/reRumbl/PostsBackend**
+
 # Posts Frontend
 
 ## Screenshots
